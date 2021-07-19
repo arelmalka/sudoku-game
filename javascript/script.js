@@ -1,7 +1,7 @@
 function startGame() {
     let userName = document.getElementById('fullName').value;
     let password = document.getElementById('password').value;
-    
+    debugger;
     if (userName == 'abcd' && password == '1234') {
         window.location.replace('./gamePage.html');
     }
