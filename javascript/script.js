@@ -3,7 +3,7 @@ function startGame() {
     let password = document.getElementById('password').value;
     debugger;
     if (userName == 'abcd' && password == '1234') {
-        window.location.replace('./gamePage.html');
+        window.location.replace('../sudoku-game/gamePage.html');
     }
     if (userName != 'abcd') {
 
