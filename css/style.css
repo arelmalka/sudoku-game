@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-image: url(geisha.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 6%;
+    margin-left: 22%;
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.costom-field {
+    position: relative;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.costom-field input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    padding: 12px;
+    border-radius: 3px;
+    width: 250px;
+    outline: none;
+    font-size: 14px;
+    border: 2px solid #ddd;
+}
+
+.costom-field .placeholder {
+    position: absolute;
+    padding: 0 5px;
+    left: 8px;
+    top: calc(50% + 10px);
+    transform: translateY(-50%);
+    color: #aaa;
+    transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+.costom-field input:valid+.placeholder,
+.costom-field input:focus+.placeholder {
+    top: 7px;
+    font-size: 10px;
+    color: #222;
+    background: #fff;
+}
+
+.costom-field input:valid,
+.costom-field input:focus {
+    border-color: #222;
+    transition-delay: 0.1s;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.text-style {
+    position: absolute;
+    margin: 0;
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+#flex {
+    display: flex;
+}
+
+#agree-to-p {
+    margin: 0 0 10px 0;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+#start {
+    padding: 8px;
+    width: 59%;
+    color: white;
+    background-color: #fe1723;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    
+}
+
+#last-p {
+    font-size: 13px;
+}
+#changeName{
+color: red;
+}
+#changePass{
+color: red;
+}

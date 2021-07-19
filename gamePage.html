@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+
+    <title>Page Title</title>
+
+    <link rel='stylesheet' class="input" type='text/css' media='screen' href='css\gamePage.css'>
+
+</head>
+
+<body>
+
+    <h1 id="headFont">Welcome abcd ,please choose any difficulty</h1>
+    
+
+    <div id="mistakesPlace">
+        <p id="mistakes">Mistakes: 0/3</p>
+    </div>
+    </div>
+
+    <div class='container'>
+        <table>
+
+            <tr>
+                <td><input oninput="numberOnly(this.id); addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-0" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id); addEvent(event)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-1" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id); addEvent(event)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-2" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-3" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-4" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-5" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-6" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-7" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-8" maxlength="1" type="text"></td>
+            </tr>
+
+            <tr>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-9" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-10" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-11" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-12" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-13" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-14" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-15" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-16" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-17" maxlength="1" type="text"></td>
+            </tr>
+
+            <tr class="blackLine">
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-18" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-19" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-20" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-21" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-22" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-23" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-24" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-25" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-26" maxlength="1" type="text"></td>
+            </tr>
+
+            <tr>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-27" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-28" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-29" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-30" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-31" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-32" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-33" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-34" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-35" maxlength="1" type="text"></td>
+            </tr>
+
+            <tr>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-36" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-37" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-38" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-39" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-40" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-41" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-42" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-43" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-44" maxlength="1" type="text"></td>
+            </tr>
+
+            <tr class="blackLine">
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-45" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-46" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-47" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-48" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-49" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-50" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-51" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-52" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-53" maxlength="1" type="text"></td>
+            </tr>
+
+            <tr>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-54" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-55" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-56" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-57" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-58" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-59" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-60" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-61" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-62" maxlength="1" type="text"></td>
+            </tr>
+
+            <tr>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-63" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-64" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-65" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-66" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-67" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-68" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-69" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-70" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-71" maxlength="1" type="text"></td>
+            </tr>
+
+            <tr>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-72" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-73" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-74" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-75" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-76" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-77" maxlength="1" type="text"></td>
+
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-78" maxlength="1" type="text" class="blackLineLeft"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-79" maxlength="1" type="text"></td>
+                <td><input oninput="numberOnly(this.id)" onchange="addEvent(event)" onfocus="_addEventListener(event)" onblur="_removeEventListener(event)" id="cell-80" maxlength="1" type="text"></td>
+            </tr>
+
+        </table>
+
+        <div class="buttonPosition">
+            <button class="difficultyButton" onclick="begginers()">Begginer</button>
+            <button class="difficultyButton" onclick="professionals()">Professional</button>
+            <button class="difficultyButton" onclick="legendery()">Legendery</button>
+        </div>
+    </div>
+    <div id="gameButtons">
+        <div id="reset"><button onclick="reset()" class="modeButton">Start over</button></div>
+        <div id="newGame"><button onclick="newGame()" class="newGame">New game</button></div>
+        <div id="finish"><button class="modeButton" onclick="finishGame()">Finish game</button></div>
+    </div>
+
+    <script src='javascript\gamePage.js'></script>
+</body>
+
+</html>

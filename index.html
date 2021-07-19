@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css\style.css'>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Register</h1>
+        <p>please fill this to create an account.</p>
+        <form>
+
+            <div class="form-control">
+                <label class="costom-field">
+                        <input id="fullName" type="text" required>
+                       <span class="placeholder">Full Name-should be abcd</span>
+                    </label>
+
+
+                <p class="text-style" id="changeName"></p>
+            </div>
+            <div class="form-control">
+                <label class="costom-field">
+                        <input id="password" type="text" required>
+                        <span class="placeholder">Password-should be 1234</span>
+                    </label>
+
+
+                <p class="text-style" id="changePass"></p>
+            </div>
+        </form>
+        <div id="flex">
+            <input type="checkbox">
+            <p id="agree-to-p">By creating an account<br>you agree to our<a href=""> terms & privacy.</a></p>
+        </div>
+        <div>
+            <button id="start" onclick="startGame()">Start game</button>
+        </div>
+
+    </div>
+    </div>
+
+
+
+    <script src='javascript\script.js'></script>
+</body>
+
+</html>
